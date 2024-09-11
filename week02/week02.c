@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	a = 10;
 	b = 20;
 	sum = a + b;
-	printf("Hello Sookmyung Electronic\n");
+	printf("Hello Sookmyung Electronics\n");
 	printf("%d + %d = %d\n", a, b, a+b);
 	
 	return 0;
