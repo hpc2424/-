@@ -1,6 +1,6 @@
 [Project]
-FileName=Project1.dev
-Name=Project1
+FileName=Project2.dev
+Name=Project2
 Type=1
 Ver=2
 ObjFiles=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000001000000
+CompilerSettings=0000000000000000000000000
 UnitCount=1
 
 [VersionInfo]
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=Project1\main.c
+FileName=main.c
 CompileCpp=0
 Folder=
 Compile=1
