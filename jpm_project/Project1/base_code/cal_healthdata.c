@@ -1,3 +1,6 @@
+#define _CRT_SECURE_NO_WARNINGS
+//because of visual studio
+
 //
 //  cal_healthdata.c
 //  Diets for Calorie Diary
