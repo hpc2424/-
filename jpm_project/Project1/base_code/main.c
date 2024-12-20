@@ -66,6 +66,7 @@ int main() {
             	
     			printf("Exit the system.\n");
     			printf("=======================================================================\n");
+                return;
                 break;
                 
             default:
