@@ -51,7 +51,7 @@ void loadDiets(const char* DIETFILEPATH) {
         strcpy(diet_list[diet_list_size].food_name, ptr);
         ptr = strtok(NULL, " ");
         diet_list[diet_list_size].calories_intake = atoi(ptr);
-        //atoi for int
+        //used atoi for int
         diet_list_size++;
     }
     fclose(file);
@@ -89,7 +89,7 @@ void inputDiet(HealthData* health_data) {
     health_data->diet_count++;
 
     // ToCode: to enter the total calories intake in the health data
-    printf("You selected : %s\n", diet_list[choice].food_name);
+    printf("You selected %s\n", diet_list[choice].food_name);
     printf("Calorie: %d\n", diet_list[choice].calories_intake);
     printf("Total calorie: %d\n", health_data->total_calories_intake);
 
